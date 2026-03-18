@@ -31,7 +31,7 @@ console.log(triple(5));
 
 // using Map 
 
-const numbers=[1,2,3,4,5]
+numbers=[1,2,3,4,5]
 const doubleNumbers=numbers.map((num)=>num*2);
 console.log(numbers)
 console.log(doubleNumbers)
@@ -62,31 +62,30 @@ console.log(youngPeople);
 
 // Using .reduce on Arrays
 
-const array=[1,2,3,4,5,6,7,8,9,10]
+let array=[1,2,3,4,5,6,7,8,9,10]
 const reducedArray=array.reduce((initialVal, num)=> initialVal+num,0);
 console.log(reducedArray);
 
 //find product of all elements in array
 
-const array=[1,2,3,4,5,6,7,8,9,10];
-const modArray=array.reduce((initalValue, number)=> initalValue*number);
+array=[1,2,3,4,5,6,7,8,9,10];
+let modArray=array.reduce((initalValue, number)=> initalValue*number);
 console.log(modArray)
 
 //find the maximum number 
 
-const array=[1,2,3,4,5,6,7,8,9,10,70];
+array=[1,2,3,4,5,6,7,8,9,10,70];
 const maxNumber=array.reduce((initialValue, number)=> Math.max(number),0);
 console.log(maxNumber)
 
 // convert the array into one string 
 
-const array=['h','e','l','l','o'];
-const modArray=array.reduce((initalValue,num)=> initalValue+num,"");
+array=['h','e','l','l','o'];
+modArray=array.reduce((initalValue,num)=> initalValue+num,"");
 console.log(modArray)
 
 // convert the array into one string 
 
-const array=['h','e','l','l','o'];
-const modArray=array.reduce((initalValue)=> initalValue=initalValue+1,0);
+array=['h','e','l','l','o'];
+modArray=array.reduce((initalValue)=> initalValue=initalValue+1,0);
 console.log(modArray)
-
