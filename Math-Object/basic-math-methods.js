@@ -1,20 +1,20 @@
-// // Math.random() generates a random number between 0-1
-// const num=Math.random()
-// console.log(num)
+// Math.random() generates a random number between 0-1
+const num=Math.random()
+console.log(num)
 
-// // Math.floor(), Math.ceil(), Math.round()
-// const num2=4.38;
-// console.log(Math.floor(num2));
-// console.log(Math.ceil(num2));
-// console.log(Math.round(num2));
+// Math.floor(), Math.ceil(), Math.round()
+const num2=4.38;
+console.log(Math.floor(num2));
+console.log(Math.ceil(num2));
+console.log(Math.round(num2));
 
-// // returns the largest number from the list
-// const largestNum=Math.max(1,3,5,23,64,756,1239);
-// console.log((largestNum));
+// returns the largest number from the list
+const largestNum=Math.max(1,3,5,23,64,756,1239);
+console.log((largestNum));
 
-// // returns the smallest number from the given array/list
-// const smallestNum=Math.min(1,3,5,23,64,756,1239);
-// console.log((smallestNum));
+// returns the smallest number from the given array/list
+const smallestNum=Math.min(1,3,5,23,64,756,1239);
+console.log((smallestNum));
 
 // to generate a random integer between (0-10) 
 const max=10;
