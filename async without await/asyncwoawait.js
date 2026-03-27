@@ -1,6 +1,3 @@
-// asyncTest.js
-
-// Simulate async task
 function asyncTask(name, succeed = true, delay = 1000) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
